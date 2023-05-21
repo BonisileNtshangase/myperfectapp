@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(44.8deg,
+            rgba(91, 202, 210, 0.755) -53.1%,
+            rgba(8, 99, 67, 0.28) 49%);
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.menu {
+    justify-content: center;
+}
+
+.weather-app {
+    background-color: rgba(93, 242, 212, 0.8);
+    border: 6px solid #6ff48c;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #0c93f4;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 600px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: #e2f9f178;
+    margin-top: 10px;
+}
+
+.heather {
+    text-align: center;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.current-info {
+    border: 2px solid #f4e87c;
+    max-width: max-content;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.current-temperature {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.units {
+    font-size: 15px;
+    position: relative;
+    top: -33px;
+    left: -15px;
+}
+
+.cloudy-rainy-sunny {
+    width: 60px;
+}
+
+.next-week .col {
+    text-align: center;
+    border: 2px solid #000707;
+    border-radius: 10px;
+    margin-inline-end: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+a {
+    color: #0a0f0f41;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1119171e;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Quicksand", sans-serif;
+    color: #32cbf1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+}
